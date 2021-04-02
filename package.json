@@ -375,12 +375,6 @@
         "packageVersion": "2.3.0"
       },
       {
-        "packageArtifactId": "azure-spring-cloud-context",
-        "packageGroupId": "com.azure.spring",
-        "packageDownloadUrl": "https://repo1.maven.org/maven2",
-        "packageVersion": "2.3.0"
-      },
-      {
         "packageArtifactId": "azure-spring-integration-core",
         "packageGroupId": "com.azure.spring",
         "packageDownloadUrl": "https://repo1.maven.org/maven2",
@@ -412,36 +406,6 @@
       },
       {
         "packageArtifactId": "azure-spring-cloud-messaging",
-        "packageGroupId": "com.azure.spring",
-        "packageDownloadUrl": "https://repo1.maven.org/maven2",
-        "packageVersion": "2.3.0"
-      },
-      {
-        "packageArtifactId": "azure-spring-cloud-starter-cache",
-        "packageGroupId": "com.azure.spring",
-        "packageDownloadUrl": "https://repo1.maven.org/maven2",
-        "packageVersion": "2.3.0"
-      },
-      {
-        "packageArtifactId": "azure-spring-cloud-starter-eventhubs",
-        "packageGroupId": "com.azure.spring",
-        "packageDownloadUrl": "https://repo1.maven.org/maven2",
-        "packageVersion": "2.3.0"
-      },
-      {
-        "packageArtifactId": "azure-spring-cloud-starter-eventhubs-kafka",
-        "packageGroupId": "com.azure.spring",
-        "packageDownloadUrl": "https://repo1.maven.org/maven2",
-        "packageVersion": "2.3.0"
-      },
-      {
-        "packageArtifactId": "azure-spring-cloud-starter-servicebus",
-        "packageGroupId": "com.azure.spring",
-        "packageDownloadUrl": "https://repo1.maven.org/maven2",
-        "packageVersion": "2.3.0"
-      },
-      {
-        "packageArtifactId": "azure-spring-cloud-starter-storage-queue",
         "packageGroupId": "com.azure.spring",
         "packageDownloadUrl": "https://repo1.maven.org/maven2",
         "packageVersion": "2.3.0"
