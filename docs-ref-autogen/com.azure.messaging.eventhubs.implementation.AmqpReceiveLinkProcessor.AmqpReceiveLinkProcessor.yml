@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+uid: "com.azure.messaging.eventhubs.implementation.AmqpReceiveLinkProcessor.AmqpReceiveLinkProcessor*"
+fullName: "com.azure.messaging.eventhubs.implementation.AmqpReceiveLinkProcessor.AmqpReceiveLinkProcessor"
+name: "AmqpReceiveLinkProcessor"
+nameWithType: "AmqpReceiveLinkProcessor.AmqpReceiveLinkProcessor"
+members:
+- uid: "com.azure.messaging.eventhubs.implementation.AmqpReceiveLinkProcessor.AmqpReceiveLinkProcessor(int,com.azure.core.amqp.AmqpRetryPolicy,reactor.core.Disposable)"
+  fullName: "com.azure.messaging.eventhubs.implementation.AmqpReceiveLinkProcessor.AmqpReceiveLinkProcessor(int prefetch, AmqpRetryPolicy retryPolicy, Disposable parentConnection)"
+  name: "AmqpReceiveLinkProcessor(int prefetch, AmqpRetryPolicy retryPolicy, Disposable parentConnection)"
+  nameWithType: "AmqpReceiveLinkProcessor.AmqpReceiveLinkProcessor(int prefetch, AmqpRetryPolicy retryPolicy, Disposable parentConnection)"
+  summary: "Creates an instance of <xref uid=\"com.azure.messaging.eventhubs.implementation.AmqpReceiveLinkProcessor\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AmqpReceiveLinkProcessor\"></xref>."
+  parameters:
+  - description: "The number if messages to initially fetch."
+    name: "prefetch"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Retry policy to apply when fetching a new AMQP channel."
+    name: "retryPolicy"
+    type: "<xref href=\"com.azure.core.amqp.AmqpRetryPolicy?alt=com.azure.core.amqp.AmqpRetryPolicy&text=AmqpRetryPolicy\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Represents the parent connection."
+    name: "parentConnection"
+    type: "<xref href=\"reactor.core.Disposable?alt=reactor.core.Disposable&text=Disposable\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public AmqpReceiveLinkProcessor(int prefetch, AmqpRetryPolicy retryPolicy, Disposable parentConnection)"
+type: "constructor"
+metadata: {}
+package: "com.azure.messaging.eventhubs.implementation"
+artifact: com.azure:azure-messaging-eventhubs:5.6.0

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: "com.azure.core.implementation.serializer.HttpResponseBodyDecoder.isReturnTypeDecodable*"
+fullName: "com.azure.core.implementation.serializer.HttpResponseBodyDecoder.isReturnTypeDecodable"
+name: "isReturnTypeDecodable"
+nameWithType: "HttpResponseBodyDecoder.isReturnTypeDecodable"
+members:
+- uid: "com.azure.core.implementation.serializer.HttpResponseBodyDecoder.isReturnTypeDecodable(java.lang.reflect.Type)"
+  fullName: "com.azure.core.implementation.serializer.HttpResponseBodyDecoder.isReturnTypeDecodable(Type returnType)"
+  name: "isReturnTypeDecodable(Type returnType)"
+  nameWithType: "HttpResponseBodyDecoder.isReturnTypeDecodable(Type returnType)"
+  summary: "Checks if the `returnType` is a decodable type."
+  parameters:
+  - description: "The return type of the method."
+    name: "returnType"
+    type: "<xref href=\"java.lang.reflect.Type?alt=java.lang.reflect.Type&text=Type\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static boolean isReturnTypeDecodable(Type returnType)"
+  returns:
+    description: "True if the return type is decodable, false otherwise."
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
+metadata: {}
+package: "com.azure.core.implementation.serializer"
+artifact: com.azure:azure-core:1.14.1

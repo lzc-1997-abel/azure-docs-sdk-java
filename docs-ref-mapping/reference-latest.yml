@@ -112,6 +112,12 @@
       landingPageType: Service
       children:
       - com.azure.communication.common*
+    - name: SMS
+      uid: azure.java.sdk.landingpage.services.communication.SMS
+      href: ~/docs-ref-services/latest/communication-sms-readme.md
+      landingPageType: Service
+      children:
+      - com.azure.communication.sms*
   - name: Cognitive Services
     uid: azure.java.sdk.landingpage.services.cognitiveservices
     landingPageType: Service
